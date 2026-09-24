@@ -1,1 +1,3 @@
 # software_engineering_homework_repo
+
+个人的2026秋季《软件工程》课程作业提交仓库

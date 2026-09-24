@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f8fc" />
+    <meta name="description" content="一款简洁的本地任务管理器：看板、优先级和深色模式。" />
+    <title>序事 · 任务管理器</title>
+    <script>
+      try {
+        const savedTheme = localStorage.getItem('xushi.theme.v1')
+        if (savedTheme === 'dark') document.documentElement.classList.add('dark')
+      } catch (_) {}
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
